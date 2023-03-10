@@ -1,10 +1,10 @@
-import React, { FC } from "react";
+import React, { FC } from 'react'
 
 interface Props {
-  label: string;
+  label: string
 }
 const Button: FC<Props> = ({ label }) => {
-  return <button> {label} </button>;
-};
+  return <button> {label} </button>
+}
 
-export default Button;
+export default Button
